@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  align-items: center;
+  /* width: 100vw; */
+  /* margin: 0 auto; */
+}
+
+/* div {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+  align-self: flex-end;
+  order: 2;
+}
+
+.green {
+  background-color: green;
+  order: 1;
+}
+
+.yellow {
+  background-color: yellow;
+} */
+
+.img {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-image: url("https://www.imgcorporations.com/images/bg-img.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  margin: 0 auto;
+}
+
+.img-icon img {
+  position: absolute;
+  width: 100px;
+  top: 30px;
+  left: -50px;
+}
